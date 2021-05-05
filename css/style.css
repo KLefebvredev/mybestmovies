@@ -3,8 +3,8 @@
 }
 
 body{
-	background-color: rgb(255, 255, 255);
-	color: rgb(49, 49, 49);
+	background: rgb(27, 27, 27);
+	color: rgb(214, 214, 214);
 	text-align: center;
 }
 
@@ -38,3 +38,57 @@ input[type="submit"] {
 .logo{
 	width: 150px;
 }
+ul{
+	padding: 10px;
+	display: flex;
+  	flex-wrap: wrap;
+}
+li{
+	flex: 1 0 30%;
+  	min-width: 200px;
+	list-style: none;
+	background:url(../assets/img/bg-espace.jpg)no-repeat;
+	opacity: 0.85;
+	background-size: inherit;
+	border: 1px solid black;
+	padding: 5px;
+	border-radius: 10px;
+	margin: 10px 15px;
+	width: 24%;
+	text-overflow: ellipsis;
+}
+.syn{
+	color:white;
+	margin: 20px;
+	display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 10;
+  overflow: hidden;
+}
+
+h2{
+	font-size: 2rem;
+}
+.affiche {
+	border: 1px solid rgba(255, 255, 255, 0.397);
+}
+.logofg{
+	width: 20px;
+}
+@media (max-width: 1700px) {
+	img{
+		width: 250px;
+	}
+	}
+@media (max-width: 1200px) {
+	img{
+		width: 200px;
+	}
+	}
+@media (max-width: 464px) {
+	img{
+		width: 300px;
+	}
+	}
+	
+	
